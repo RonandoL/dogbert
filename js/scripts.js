@@ -100,6 +100,7 @@ $(document).ready(function() {
     });
   });
 
+/* Images */
   $("button.dog-image").click(function() {
     $(".convo-shown").after("<img class='remove' src='images/dog.jpg'>");
     $("img.remove").click(function() {
@@ -112,11 +113,11 @@ $(document).ready(function() {
       $(this).remove();
     });
   });
-
-
-
-
-
-
-
+  $("button.squirrel-image").click(function() {
+    $(".convo-shown").after("<img class='remove' src='images/squirrel.jpg'>");
+    $("img.remove").click(function() {
+      $(this).remove();
+    });
+  });
+  
 });
